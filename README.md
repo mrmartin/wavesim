@@ -1,7 +1,11 @@
-# 2D Wave Simulator
+# 2D Wave Simulator on CPU
 
 ## Overview
-This project simulates the 2D wave equation using Python, showcasing the propagation of waves through a medium. The simulation is visualized in real-time with PyQt and pyqtgraph, offering an interactive experience to understand wave dynamics.
+This project simulates the 2D wave equation using Python, showcasing the propagation of waves through a medium. The simulation is visualized in real-time with PyQt and pyqtgraph, offering an interactive experience to understand wave dynamics. Big thanks to [2D Wave Simulation on the GPU](https://github.com/0x23/WaveSimulator2D) whose code is re-factored here.
+
+<div style="display: flex;">
+    <img src="screenshot.png" alt="Screenshot" width="100%">
+</div>
 
 ## Features
 - Real-time 2D wave propagation simulation.
@@ -19,8 +23,8 @@ This project simulates the 2D wave equation using Python, showcasing the propaga
 To run the 2D Wave Simulator, you need to install the required Python libraries. Clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-github-username/2d-wave-simulator.git
-cd 2d-wave-simulator
+git clone git@github.com:mrmartin/wavesim.git
+cd wavesim
 pip install -r requirements.txt
 ```
 
@@ -28,11 +32,8 @@ pip install -r requirements.txt
 After installing the dependencies, run the simulation:
 
 ```bash
-python animate_wave.py
+python3 animate_wave.py
 ```
-
-## Contributing
-Contributions to the 2D Wave Simulator are welcome. Please feel free to fork the repository, make changes, and submit pull requests.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
